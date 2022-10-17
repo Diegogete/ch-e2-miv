@@ -3,7 +3,121 @@
 /* /PÁGINA 1*/
 
 /*PÁGINA 2*/
-
+.pagina, header, footer{background-color: #eeeeee;}
+.container{background: transparent;}
+.pagina2 .bt-globo{
+    border: none;
+    background: transparent;
+    margin: 20px auto;
+    display: block;
+}
+.pagina2 .destaque-dica{
+    background: url('../imgs/pagina2/dest_dica.png') no-repeat;
+    width: 865px;
+    height: 299px;
+    padding: 50px;
+    padding-left: 200px;
+}
+.pagina2 .bt-tooltip{color: #000;}
+.pagina2 .bloco-verde{
+    background: #004f53;
+    padding: 100px 0;
+}
+.pagina2 .bloco-verde p, 
+.pagina2 .bloco-verde a{color: #fff;}
+.pagina2 .rellax {
+    position: absolute;
+    z-index: 9;
+}
+.pagina2 .par-1 {
+    top: 400px;
+    right: 0;
+    width: 20%;
+}
+.pagina2 .par-2 {
+    top: 1000px;
+    left: 0;
+    width: 20%;
+}
+.pagina2 .par-3 {
+    top: 3100px;
+    right: 0;
+    width: 20%;
+}
+.pagina2 .bloco3{padding: 100px 0;}
+.pagina2 .par-4 {
+    top: 5300px;
+    left: 0;
+    width: 20%;
+}
+.pagina2 .par-5 {
+    top: 6200px;
+    right: 0;
+    width: 20%;
+}
+.pagina2 .par-6 {
+    top: 7400px;
+    left: 0;
+    width: 20%;
+}
+.pagina2 .par-7 {
+    top: 8900px;
+    right: 0;
+    width: 20%;
+}
+.pagina2 .par-8 {
+    top: 9900px;
+    left: 0;
+    width: 20%;
+}
+.pagina2 .bloco4{
+    -webkit-box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+}
+.pagina2 .bloco5{
+    padding: 100px 0;
+    background: url('../imgs/pagina2/bg_elem_bloco.png') no-repeat;
+    background-size: cover;
+}
+.pagina2 .bloco6{
+    padding: 100px 0;
+    -webkit-box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.75);
+}
+.pagina2 .par-9 {
+    top: 10900px;
+    left: 0;
+    width: 20%;
+}
+.pagina2 .par-10 {
+    top: 11700px;
+    right: 0;
+    width: 20%;
+}
+.pagina2 .bloco7{
+    padding: 100px 0;
+}
+.pagina2 .painel1 button{
+    width: 427px;
+    height: 544px;
+    margin-bottom: 20px;
+    border: none;
+    background-position: center;
+}
+.pagina2 .painel1 .bt-direitosmuculmanas{
+    background: url('../imgs/pagina2/card_01.png') no-repeat;
+}
+.pagina2 .painel1 .bt-direitosmuculmanas:hover{
+    background: url('../imgs/pagina2/card_01_hover.png') no-repeat;
+}
+.pagina2 .painel1 .bt-direitosbrasil{
+    background: url('../imgs/pagina2/card_02.png') no-repeat;
+}
+.pagina2 .painel1 .bt-direitosbrasil:hover{
+    background: url('../imgs/pagina2/card_02_hover.png') no-repeat;
+}
 /* /PÁGINA 2*/
 
 /*PÁGINA 3*/
@@ -17,3 +131,34 @@
 /*PÁGINA 5*/
 
 /* /PÁGINA 5*/
+
+.link-inicial{
+    height: 37px;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+.btn-sesc{
+    border: 4px solid #00a7b3;
+    color: #00a7b3;
+    font-weight: normal;
+    font-size: 1.1rem;
+    padding: 0px 12px;
+    background-color: #eeeeee;
+}
+footer .active{
+    transform: translateY(-5px);
+    background-color: #E5FDFF;
+}
+
+@media screen and (max-width: 780px){
+    .pagina2 .bloco5{
+        background-size: contain;
+    }
+}
+@media screen and (max-width: 580px){
+    .pagina2 .painel1 button{
+        transform: scale(0.8);
+        margin: -40px 0;
+        margin-left: -60px;
+    }
+}
