@@ -1,5 +1,47 @@
 /*PÁGINA 1*/
-
+.pagina1 .pbloco1{
+    background: url('../imgs/pagina1/barra_paragrafo.png') no-repeat left;
+    padding-left: 40px;
+}
+.pagina1 .bloco {
+    padding: 10px 0;
+}
+.pagina1 .bloco1 {
+    background: url('../imgs/pagina1/bg_right.png') no-repeat right top / 25%,
+        url('../imgs/pagina1/bg_left.png') no-repeat left top / 25%;
+    background-attachment: scroll;
+    padding-top: 40px;
+}
+.pagina1 .bloco2 {
+    background-color: #004f53;
+}
+.pagina1 .col-9 {
+    padding-top: 70px;
+}
+.pagina1 .bloco-verde .container {
+    background: transparent;
+}
+.pagina1 .bloco-verde p {
+    color: #fff;
+}
+.pagina1 .icone::before {
+    background-color: transparent;
+}
+.pagina1 .icone.dica::before {
+    background-image: url('../imgs/pagina1/dica.png');
+    width: 165px;
+    height: 250px;
+    left: -165px;
+    top: -50px;
+}
+.pagina1 .caixa.icone {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 9px 8px 0px -5px #FFA500;
+    -webkit-box-shadow: 9px 8px 0px -5px #FFA500;
+    -moz-box-shadow: 9px 8px 0px -5px #FFA500;
+}
 /* /PÁGINA 1*/
 
 /*PÁGINA 2*/
