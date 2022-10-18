@@ -125,7 +125,111 @@
 /* /PÁGINA 3*/
 
 /*PÁGINA 4*/
-
+.pagina4 ol li{
+    min-height: 50px;
+    padding-left: 55px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.pagina4 .li1{background: url('../imgs/pagina4/num1.png') no-repeat left top;}
+.pagina4 .li2{background: url('../imgs/pagina4/num2.png') no-repeat left top;}
+.pagina4 .li3{background: url('../imgs/pagina4/num3.png') no-repeat left top;}
+.pagina4 .li4{background: url('../imgs/pagina4/num4.png') no-repeat left top;}
+.pagina4 .bloco-verde{
+    background: #004f53;
+    padding: 100px 0;
+}
+.pagina4 .bloco-verde p, 
+.pagina4 .bloco-verde a{color: #fff;}
+.pagina4 .bloco3{
+    -webkit-box-shadow: inset 0px 6px 15px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 6px 15px -8px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 6px 15px -8px rgba(0,0,0,0.75);
+}
+.pagina4 .bloco1,
+.pagina4 .bloco3,
+.pagina4 .bloco5{
+    background: url('../imgs/pagina4/bg_branco.png') no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+    background-size: cover;
+}
+.pagina4 .img-divisoria{margin: -100px 0;}
+.pagina4 .bloco2{padding-top: 150px;}
+.pagina4 .painel1 button{
+    border: none;
+    margin-bottom: 10px;
+}
+.pagina4 .bt-idh{
+    background: url('../imgs/pagina4/bt1.png') no-repeat;
+    width: 302px;
+    height: 113px;
+}
+.pagina4 .bt-gini{
+    background: url('../imgs/pagina4/bt2.png') no-repeat;
+    width: 222px;
+    height: 113px;
+}
+.pagina4 .bt-idh:hover{background: url('../imgs/pagina4/bt1_hover.png') no-repeat;}
+.pagina4 .bt-gini:hover{background: url('../imgs/pagina4/bt2_hover.png') no-repeat;}
+.pagina4 .bloco4{
+    padding-bottom: 150px;
+}
+.pagina4 .bloco-verde .modal *{color: #000;}
+.pagina4 .container{padding: 0 50px;}
+.pagina4 .rellax {
+    position: absolute;
+    z-index: 9;
+}
+.pagina4 .par-1 {
+    top: 1600px;
+    right: 0;
+    width: 20%;
+}
+.pagina4 .par-2 {
+    top: 3300px;
+    left: 0;
+    width: 20%;
+}
+.pagina4 .par-3 {
+    top: 3700px;
+    right: 0;
+    width: 20%;
+}
+.pagina4 .par-4 {
+    top: 5100px;
+    left: 0;
+    width: 20%;
+}
+.pagina4 .infografico-clicavel{
+    background: url('../imgs/pagina4/figura_13.png') no-repeat;
+    width: 768px;
+    height: 718px;
+    position: relative;
+}
+.pagina4 .infografico-clicavel .graficos{
+    position: absolute;
+    background: url('../imgs/pagina4/figura_13b.png') no-repeat;
+    width: 0;
+    height: 248px;
+    top: 205px;
+    left: 230px;
+    transition: all 0.4s;
+}
+.pagina4 .infografico-clicavel button{
+    position: absolute;
+    width: 65px;
+    height: 35px;
+    bottom: 200px;
+    background: transparent;
+    transition: all 0.4s;
+}
+.pagina4 .infografico-clicavel button:hover{transform: scale(1.1);}
+.pagina4 .infografico-clicavel .ano-2012{left: 222px;}
+.pagina4 .infografico-clicavel .ano-2013{left: 311px;}
+.pagina4 .infografico-clicavel .ano-2014{left: 401px;}
+.pagina4 .infografico-clicavel .ano-2015{left: 490px;}
+.pagina4 .infografico-clicavel .ano-2016{left: 580px;}
 /* /PÁGINA 4*/
 
 /*PÁGINA 5*/
@@ -154,11 +258,16 @@ footer .active{
     .pagina2 .bloco5{
         background-size: contain;
     }
+    .pagina4 .infografico-clicavel{margin-left: -42px !important;}
 }
 @media screen and (max-width: 580px){
     .pagina2 .painel1 button{
         transform: scale(0.8);
         margin: -40px 0;
         margin-left: -60px;
+    }
+    .pagina4 .painel1{
+        transform: scale(0.8);
+        margin-left: -27px;
     }
 }
