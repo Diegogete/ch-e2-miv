@@ -1,0 +1,2 @@
+Bloco verde-escuro:
+	Cor: #004f53

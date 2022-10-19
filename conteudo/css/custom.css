@@ -163,7 +163,197 @@
 /* /PÁGINA 2*/
 
 /*PÁGINA 3*/
+.pg3-bloco1{
+    position: relative;
+    background-image: url(../imgs/pagina3/assets/bg_bloco1.png);
+    /* background-position: left top,left top; */
+    background-size:100% 100%;
+    /* background-attachment: fixed; */
+    padding-bottom: 100px;
+}
+.pg3-bloco2{
+    margin-top: -18px;
+}
+.pg3-bloco3{}
+.pg3-bloco4{ padding-top: 100px;position: relative;}
+.pg3-bloco5{ padding-top: 100px;position: relative;}
+.pg3-bloco6{padding-top: 100px;position: relative;}
+.pg3-bloco7{padding-top: 100px;position: relative;}
+.pg3-bloco8{padding-top: 100px;position: relative;}
+.pg3-bloco9{padding-top: 100px;position: relative;}
+.pg3-bloco10{padding-top: 100px;position: relative;}
+.pg3-bloco11{padding-top: 100px;position: relative;}
+.pg3-bloco12{padding-top: 100px;position: relative;}
+.pg3-bloco13{padding-top: 100px;position: relative;}
+.blocoA{
+    position: relative;
+    background-color: #004f53;
+    color: #fff;
+    background-image: url(../imgs/pagina3/assets/div_bloco.png), url(../imgs/pagina3/assets/div_bloco.png);
+    background-position: top,bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.blocoB{
+    position: relative;
+    background-image: url(../imgs/pagina3/assets/bg_branco.png);
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+.blocoC{
+    position: relative;
+    background-color: #004f53;
+    color: #fff;
+    background-image: url(../imgs/pagina3/assets/bg_bloco4_elem.png), url(../imgs/pagina3/assets/bg_bloco4_elem.png);
+    background-position: left,right;
+    padding-bottom: 100px;
+}
+.blocoCC{
+    position: relative;
+    background-color: #004f53;
+    color: #fff;
+    background-image: url(../imgs/pagina3/assets/bg_bloco8_elem.png), url(../imgs/pagina3/assets/bg_bloco8_elem.png);
+    background-position: left,right;
+    padding-bottom: 100px;
+}
+.blocoCCC{
+    position: relative;
+    background-color: #004f53;
+    color: #fff;
+    background-image: url(../imgs/pagina3/assets/bg_bloco12_elem.png), url(../imgs/pagina3/assets/bg_bloco12_elem.png);
+    background-position: left,right;
+    padding-bottom: 100px;
+}
 
+.pg5-bloco1{
+    padding: 50px 0px 100px;
+    position: relative;
+    background-image: url(../imgs/pagina5/assets/bg_left.png), url(../imgs/pagina5/assets/bg_right.png);
+    background-position-x: -10%,100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.pg5-bloco2{
+    margin-top: -2px;
+    padding: 100px 0px 200px;
+    background-color: #004f53;
+    color: #fff;
+    position: relative;
+    /* background-image: url(../imgs/pagina5/assets/div_topo.png), url(../imgs/pagina5/assets/div_base.png); */
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+}
+.pg5-bloco3{
+    padding: 100px 0px 200px;
+    position: relative;
+    background-image: url(../imgs/pagina5/assets/bg_bottom.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.pg5-bloco4{
+    padding: 100px 0px 100px;
+    position: relative;
+    background-image: url(../imgs/pagina5/assets/div_topo.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* background-attachment: fixed; */
+}
+.pg5-bloco5{
+    padding: 100px 0px 100px;
+    position: relative;
+    background-image: url(../imgs/pagina5/assets/div_base.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* background-attachment: fixed; */
+}
+
+.dica-sufra{
+    background-image: url(../imgs/pagina3/assets/dest_dica.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 25px 0px;
+    background-position-x: -10px;
+}
+.vc-sufra{
+    background-image: url(../imgs/pagina3/assets/dest_vc_sabia.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 25px 0px;
+    background-position-x: -10px;
+}
+.vc-sufra{
+    background-image: url(../imgs/pagina3/assets/dest_refletir.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 25px 0px;
+    background-position-x: -10px;
+}
+.vc-dica{
+    background-image: url(../imgs/pagina3/assets/dest_dica2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 45px 0px;
+    background-position-x: -10px;
+}
+figure{text-align: center;}
+.painel-gaitinha{ color: #000;}
+.pagina3 .par-1 {
+    bottom: -300px;
+    width: 10%;
+}
+.pagina3 .par-2 {
+    right: 0;
+    top: 900px;
+    width: 10%;
+}
+.pagina3 .par-3 {
+    bottom: -300px;
+    left: 0;
+    width: 10%;
+}
+.pagina3 .par-4 {
+    bottom: -800px;
+    left: 0;
+    width: 10%;
+}
+.pagina3 .par-5 {
+    bottom: -700px;
+    right: 0;
+    width: 10%;
+}
+.pagina3 .rellax {
+    position: absolute;
+    z-index: 9;
+}
+
+@media screen and (max-width: 1250px) { 
+    
+    .blocoCCC, .blocoCC, .blocoC, .blocoA{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 600px) { 
+.pg5-bloco4{
+    padding: 50px 0px 50px;
+    background-image: url(../imgs/pagina5/assets/div_topo.png);
+    /* background-attachment: fixed; */
+}
+.pg5-bloco5{
+    padding: 50px 0px 50px;
+    position: relative;
+    background-image: url(../imgs/pagina5/assets/div_base.png);
+    /* background-attachment: fixed; */
+}
+    
+    
+}
 /* /PÁGINA 3*/
 
 /*PÁGINA 4*/

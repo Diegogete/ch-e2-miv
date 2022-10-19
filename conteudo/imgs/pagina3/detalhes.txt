@@ -1,0 +1,7 @@
+- O "bg_branco" deve ficar fixo no fundo, para não rolar junto do scroll.
+
+- O bloco escuro (#004F53) leva um sombreamento no seu término, não podendo vazar para o topo.
+
+- Os elementos de BG são repetidos ao longo do bloco que pertencem.
+
+
